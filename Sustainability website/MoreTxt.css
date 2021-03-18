@@ -1,0 +1,58 @@
+#more1 {display: none;} /*First Challenge*/
+
+#more2 {display: none;} /*Second Challenge*/
+
+#more3 {display: none;} /*Third Challenge*/
+
+#more4 {display: none;} /*Progress Challenge*/
+
+
+.specials {
+    background-color: aquamarine;
+}
+
+@media screen and (min-width: 993px){
+    .specials {
+    background-color: azure;
+    }
+}
+
+/*#header{
+    text-align: center;
+}*/
+
+body{
+    font-family: 'Cabin';
+    color: black;
+    background-color: rgb(158, 186, 223);
+    padding: 0px 80px;
+}
+
+
+.navigation{
+    background-color: rgb(79, 60, 161);
+    padding: 40px 390px;
+}
+
+.navigation a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(79, 60, 161);
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(205, 237, 241);
+}
+
+ 
